@@ -1,0 +1,14 @@
+/* Carousel */
+.carousel_container {
+  width: 100%;
+  overflow-x: scroll;
+}
+.carousel_container::-webkit-scrollbar {
+  display: none;
+}
+.carousel_lineup {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+}

@@ -1,0 +1,32 @@
+.signup_stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.signup_stage h1 {
+  font-size: 45pt;
+  margin-bottom: 0px;
+  animation: h1 750ms;
+}
+@keyframes h1 {
+  0% {
+    transform: scale(1.3);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.85);
+  }
+}
+.signup_stage h3 {
+  margin-bottom: 45px;
+}
+.signup_stage form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}

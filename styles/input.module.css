@@ -1,0 +1,19 @@
+.inputbutton {
+  height: 6vh;
+  max-height: 65px;
+  min-height: 50px;
+  width: 75vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin-bottom: 15px;
+  border-radius: 13px;
+  padding-left: 5%;
+  color: white;
+  background-color: transparent;
+  border: 2px solid var(--complement);
+}
+
+.inputbutton::placeholder {
+  color: var(--complement);
+  filter: brightness(0.5);
+}
